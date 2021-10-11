@@ -1,11 +1,12 @@
 import HeroBlock from './components/HeroBlock';
+import Response from './components/Response';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HeroBlock />
-      </header>
+    <div>
+      <Header />
+      <HeroBlock />
     </div>
   );
 }
