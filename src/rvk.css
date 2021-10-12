@@ -1,8 +1,63 @@
-p.b {
-  font-family: Arial, sans-serif;
+.head1 {
+  color: #0467e1;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: -60px;
+  font-family: Arial;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 1px solid #0467e1;
 }
 
-st {
-  padding: 30;
-  margin: 'auto';
+.head2 {
+  float: right;
+  color: white;
+}
+
+.hero {
+  margin-top: 60px;
+  font-family: Arial;
+  text-align: left;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  padding: calc(0.86207% + -2.41379px) 0;
+  margin-bottom: calc(7.5431% + 8.87931px);
+  display: flex;
+  flex-flow: column nowrap;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+
+.layout {
+  padding-top: 3.125rem;
+  flex-grow: 1;
+  padding-bottom: 1.875rem;
+  min-height: 60vh;
+}
+
+.parag {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-block-start: 2em;
+  margin-block-end: 3em;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+
+.buts {
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+
+.primBut {
+  margin-bottom: 10px;
+}
+
+.img1 {
+  float: right;
 }
