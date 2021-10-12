@@ -54,7 +54,7 @@
   margin-top: 30px;
 }
 
-@media only screen and (min-width: 425px) {
+@media (max-width: 425px) {
   .img1 {
     width: 330px;
     height: 240px;
@@ -74,20 +74,29 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 850px) {
   .layout {
-    margin-inline-start: 45px;
-    margin-inline-end: 225px;
+    margin-inline-start: 49px;
+    margin-inline-end: 500px;
   }
   .hero {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+  }
+  .parag {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-block-start: 2em;
+    margin-block-end: 3em;
   }
   .img1 {
-    margin-left: 205px;
-    width: 300px;
-    height: 223px;
-    margin-top: -70px;
+    margin-left: 600px;
+    width: 600px;
+    height: 383px;
+    margin-top: -470px;
   }
   .buts1 {
     line-height: 3.5rem;
@@ -99,11 +108,11 @@
     font-weight: 700;
   }
 }
-
-@media only screen and (min-width: 850px) {
+/*
+@media (min-width: 1400px) {
   .layout {
-    margin-inline-start: 65px;
-    margin-inline-end: 585px;
+    margin-inline-start: 165px;
+    margin-inline-end: 885px;
   }
   .head1 {
     margin-top: -20px;
@@ -112,7 +121,35 @@
     padding: 65px;
   }
   .img1 {
-    margin-left: 405px;
+    width: 500px;
+    height: 373px;
+    margin-top: -450px;
+    margin-left: 700px;
+  }
+  .buts1 {
+    line-height: 3.5rem;
+    padding: 0 1.25rem;
+    margin-right: 5.875rem;
+    margin-bottom: 1rem;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+/*
+@media (max-width: 1440px) {
+  .layout {
+    margin-inline-start: 65px;
+    margin-inline-end: 785px;
+  }
+  .head1 {
+    margin-top: -20px;
+    margin-bottom: -100px;
+    font-size: 80px;
+    padding: 65px;
+  }
+  .img1 {
+    margin-right: 40px;
     width: 500px;
     height: 373px;
     margin-top: -450px;
@@ -127,3 +164,4 @@
     font-weight: 700;
   }
 }
+*/
