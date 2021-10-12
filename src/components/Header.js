@@ -1,5 +1,4 @@
 import React from 'react'
-import Hamburger from 'hamburger-react'
 import '../rvk.css'
 
 const Header = () => {

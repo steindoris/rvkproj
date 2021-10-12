@@ -1,43 +1,28 @@
+.layout {
+  margin-inline-start: 25px;
+  margin-inline-end: 25px;
+}
+
 .head1 {
   color: #0467e1;
   background-color: white;
-  padding: 10px;
-  margin-bottom: -60px;
+  padding: 25px;
+  margin-bottom: -70px;
   font-family: Arial;
   text-align: left;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 74px;
   border-bottom: 1px solid #0467e1;
-}
-
-.head2 {
-  float: right;
-  color: white;
+  line-height: 74px;
 }
 
 .hero {
-  margin-top: 60px;
+  margin-top: 120px;
   font-family: Arial;
   text-align: left;
   font-weight: 600;
   font-size: 32px;
-  line-height: 40px;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  padding: calc(0.86207% + -2.41379px) 0;
-  margin-bottom: calc(7.5431% + 8.87931px);
-  display: flex;
-  flex-flow: column nowrap;
-  margin-inline-start: 20px;
-  margin-inline-end: 20px;
-}
-
-.layout {
-  padding-top: 3.125rem;
-  flex-grow: 1;
-  padding-bottom: 1.875rem;
-  min-height: 60vh;
 }
 
 .parag {
@@ -45,19 +30,100 @@
   text-align: left;
   margin-block-start: 2em;
   margin-block-end: 3em;
-  margin-inline-start: 20px;
-  margin-inline-end: 20px;
 }
 
-.buts {
-  margin-inline-start: 20px;
-  margin-inline-end: 20px;
+.buts2 {
+  color: #41d884;
+  border-color: #41d884;
 }
-
-.primBut {
-  margin-bottom: 10px;
+.buts1 {
+  line-height: 3.5rem;
+  padding: 0 1.25rem;
+  margin-bottom: 1rem;
+  width: 164px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .img1 {
-  float: right;
+  width: 280px;
+  height: 210px;
+  display: block;
+  margin-left: 70px;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 425px) {
+  .img1 {
+    width: 330px;
+    height: 240px;
+    display: block;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .buts1 {
+    line-height: 3.5rem;
+    padding: 0 1.25rem;
+    margin-right: 5.875rem;
+    margin-bottom: 1rem;
+    width: 172px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .layout {
+    margin-inline-start: 45px;
+    margin-inline-end: 225px;
+  }
+  .hero {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .img1 {
+    margin-left: 205px;
+    width: 300px;
+    height: 223px;
+    margin-top: -70px;
+  }
+  .buts1 {
+    line-height: 3.5rem;
+    padding: 0 1.25rem;
+    margin-right: 5.875rem;
+    margin-bottom: 1rem;
+    width: 172px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .layout {
+    margin-inline-start: 65px;
+    margin-inline-end: 585px;
+  }
+  .head1 {
+    margin-top: -20px;
+    margin-bottom: -100px;
+    font-size: 80px;
+    padding: 65px;
+  }
+  .img1 {
+    margin-left: 405px;
+    width: 500px;
+    height: 373px;
+    margin-top: -450px;
+  }
+  .buts1 {
+    line-height: 3.5rem;
+    padding: 0 1.25rem;
+    margin-right: 5.875rem;
+    margin-bottom: 1rem;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }

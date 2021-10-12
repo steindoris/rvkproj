@@ -7,7 +7,7 @@ import '../rvk.css'
 
 const HeroBlock = () => {
     var styles1 = {
-        marginBottom: '10px',
+        
         
       };
     const btnPrim = () => {
@@ -20,23 +20,26 @@ const HeroBlock = () => {
 return (
     <div className='layout'>
             
-        <h1 className='hero'>Stuðningsþjónusta við fatlað fólk</h1>
+        <h1 className='hero'>Stuðningsþjónusta<br />við fatlað fólk</h1>
         
         <div>
             <p className='parag'>Stuðningsþjónusta mætir fötluðu fólki á þeim stað sem það er í lífinu og fer fram þar sem best hentar. 
             Fólk fær stuðning við að útfæra þjónustuna þannig að hún styðji það við að lifa sjálfstæðu lífi, fást við 
-            dagleg verkefni og efla þátttöku sína í samfélaginu.
+            dagleg verkefni og efla þátttöku sína í samfélaginu. <br /><br />
             Bókaðu símtal og við finnum út úr því saman hvernig þjónusta hentar þér.
             </p>
             <div className='buts'>
-                <Button style={styles1} variant="primary" onClick={btnPrim}>
-                    Bóka símatal
+                <Button className='buts1' onClick={btnPrim}>
+                    Bóka símtal
                 </Button><br />
-                <Button variant="outline-primary" onClick={btnTert}>
+                <Button className='buts1 buts2' variant="outline-primary" onClick={btnTert}>
                 Spurt og svarað
                 </Button><br />
             </div>
-            <img className="img1" width="193" height="130" src="https://styles.reykjavik.is/assets/illustrations/allirsaman1.png" alt="logo" />
+            <div>
+                <img className="img1" src="https://styles.reykjavik.is/assets/illustrations/allirsaman1.png" alt="logo" />
+            </div>
+            
         </div>
     </div>
 )
