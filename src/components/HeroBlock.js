@@ -20,7 +20,7 @@ const HeroBlock = () => {
 return (
     <div className='layout'>
             
-        <h1 className='hero'>Stuðningsþjónusta<br />við fatlað fólk</h1>
+        <h1 className='hero'>Stuðningsþjónusta við fatlað fólk</h1>
         
         <div>
             <p className='parag'>Stuðningsþjónusta mætir fötluðu fólki á þeim stað sem það er í lífinu og fer fram þar sem best hentar. 
