@@ -4,7 +4,7 @@ import '../rvk.css'
 const Header = () => {
 
     return (
-        <div>
+        <div className='layout'>
             <h1 className='head1'>RVK</h1>
         </div>
     )

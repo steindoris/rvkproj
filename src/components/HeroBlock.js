@@ -19,6 +19,7 @@ const HeroBlock = () => {
 
 return (
     <div className='layout'>
+    <div className='layout1'>
             
         <h1 className='hero'>Stuðningsþjónusta við fatlað fólk</h1>
         
@@ -40,6 +41,7 @@ return (
                 <img className="img1" src="https://styles.reykjavik.is/assets/illustrations/allirsaman1.png" alt="logo" />
             </div>
             
+        </div>
         </div>
     </div>
 )
