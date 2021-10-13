@@ -1,4 +1,3 @@
-import { Button } from 'react-bootstrap'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../rvk.css'
@@ -6,10 +5,7 @@ import '../rvk.css'
 
 
 const HeroBlock = () => {
-    var styles1 = {
-        
-        
-      };
+
     const btnPrim = () => {
         window.open("https://reykjavik.is/");
     }
@@ -29,13 +25,13 @@ return (
             dagleg verkefni og efla þátttöku sína í samfélaginu. <br /><br />
             Bókaðu símtal og við finnum út úr því saman hvernig þjónusta hentar þér.
             </p>
-            <div className='buts'>
-                <Button className='buts1' onClick={btnPrim}>
+            <div>
+                <button className='buts buts2' onClick={btnPrim}>
                     Bóka símtal
-                </Button><br />
-                <Button className='buts1 buts2' variant="outline-primary" onClick={btnTert}>
+                </button><br />
+                <button className='buts buts3' onClick={btnTert}>
                 Spurt og svarað
-                </Button><br />
+                </button><br />
             </div>
             <div>
                 <img className="img1" src="https://styles.reykjavik.is/assets/illustrations/allirsaman1.png" alt="logo" />

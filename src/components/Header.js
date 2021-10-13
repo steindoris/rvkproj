@@ -5,7 +5,9 @@ const Header = () => {
 
     return (
         <div className='layout'>
-            <h1 className='head1'>RVK</h1>
+            <div className='blueBorder'>
+                <h1 className='head1'>RVK</h1>
+            </div>
         </div>
     )
 }
